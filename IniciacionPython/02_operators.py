@@ -42,3 +42,12 @@ print("Hola" == "Hola")
 print("Hola" != "Python")
 
 ### Operadores Lógicos ###
+
+
+# Basada en el Álgebra de Boole https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
+print(3 > 4 and "Hola" > "Python") ## Java &&
+print(3 > 4 or "Hola" > "Python") ## Java ||
+print(3 < 4 and "Hola" < "Python")
+print(3 < 4 or "Hola" > "Python")
+print(3 < 4 or ("Hola" > "Python" and 4 == 4))
+print(not (3 > 4)) # Java !=
